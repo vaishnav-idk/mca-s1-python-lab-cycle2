@@ -1,7 +1,7 @@
 def get_freq():
     all_freq={}
     str=input("enter the string ")
-    print(type(str))
+    #print(type(str))
     for i in str:
         if i in all_freq:
             all_freq[i] += 1
